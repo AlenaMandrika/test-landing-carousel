@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Geometria;
+  src: url(../fonts/Geometria.otf);
+}
+.menu {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  //flex-wrap: wrap;
+  //flex: 1 1 300px;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #3d5057;
+  font-family: Geometria;
+  opacity: 0.8;
+  z-index: 5;
+}
+.logo {
+  padding: 0 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style-type: none;
+  padding: 6px;
+}
+a {
+  text-decoration: none;
+}
+ul.nav li a {
+  color: white;
+}
+ul.header-phone li a{
+  color: #53d0fb;
+}
+ul.header-lang li a {
+  color: #53d0fb;
+}
+
+
+
+
+
+

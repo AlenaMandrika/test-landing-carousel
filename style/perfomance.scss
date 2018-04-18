@@ -1,0 +1,105 @@
+.performance {
+  position: relative;
+  padding: 140px 0 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    font-size: 38px;
+    line-height: 44px;
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 100px;
+  }
+}
+h4 {
+  font-size: 38px;
+  line-height: 44px;
+  color: #000000;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #53d0fb;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 60px 0;
+  margin: 0;
+  width: 475px;
+}
+.title-revers {
+  //text-align: right;
+  //padding-right: 50px;
+}
+.block-text-performance h4 {
+  position: relative;
+  z-index: 5;
+}
+.block-text-performance-revers h4 {
+  position: relative;
+  z-index: 5;
+  right: 68px;
+}
+.block-text-performance,.block-text-performance-revers  {
+  max-width: 410px;
+  p {
+    margin: 0;
+  }
+  .text-performance {
+    margin: 55px 80px 100px 47px;
+  }
+}
+.btn-left {
+  margin-left: 47px;
+}
+.btn-left:hover,.btn-right:hover {
+  background-color: transparent;
+  transition: 0.5s;
+}
+.btn-right {
+  margin-right: 47px !important;
+}
+.text-performance-revers {
+  margin: 55px 47px 100px 80px;
+}
+.block-info,.block-info-revers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+}
+.block-info-revers {
+  text-align: right;
+}
+.block-info-revers button{
+  margin: 0 0 0 53px;
+}
+.block-img {
+  max-width: 790px;
+  img {
+    width: 100%;
+    max-height: 525px;
+  }
+}
+@media (max-width: 1240px) {
+  .block-img {
+    max-width: 690px;
+  }
+  h4 {
+    padding: 36px 0;
+  }
+}
+@media (max-width: 1100px) {
+  .block-info,.block-info-revers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+
