@@ -12,6 +12,18 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="logo">
             </div>
+            <div class="menu-icon">
+                <a href="#">MЕНЮ</a>
+            </div>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">ПЕРВЫЙ ЭКРАН</a>
+                <a href="#">ВСТУПЛЕНИЕ</a>
+                <a href="#">ИНФОГРАФИКА</a>
+                <a href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
+                <a href="#">КОНТАКТЫ</a>
+                <a href="tel:+38(096)622 86 13">+38(096)622 86 13</a>
+                <a href="tel:+38(096)622 86 13">+38(096)622 86 13</a>
+            </div>
             <nav>
                 <ul class="nav">
                     <li><a href="#">ПЕРВЫЙ ЭКРАН</a></li>
@@ -20,15 +32,17 @@
                     <li><a href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a></li>
                     <li><a href="#">КОНТАКТЫ</a></li>
                 </ul>
-                <ul class="header-phone">
-                    <li><a href="tel:+38(096)622 86 13">+38(096)622 86 13</a></li>
-                    <li><a href="tel:+38(096)622 86 13">+38(096)622 86 13</a></li>
-                </ul>
-                <ul class="header-lang">
-                    <li><a href="#">EN |</a></li>
-                    <li><a href="#">UA |</a></li>
-                    <li><a href="#">RU</a></li>
-                </ul>
+                <div class="phone-lang">
+                    <ul class="header-phone">
+                        <li><a href="tel:+38(096)622 86 13">+38(096)622 86 13</a></li>
+                        <li><a href="tel:+38(096)622 86 13">+38(096)622 86 13</a></li>
+                    </ul>
+                    <ul class="header-lang">
+                        <li><a href="#">EN |</a></li>
+                        <li><a href="#">UA |</a></li>
+                        <li><a href="#">RU</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -46,7 +60,7 @@
                         </div>
                         <div>
                             <button class="btn-black">да, должны</button>
-                            <button class="btn-white">конечно должны</button>
+                            <button class="btn-white">конечно, должны</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +75,7 @@
                         </div>
                         <div>
                             <button class="btn-black">да, должны</button>
-                            <button class="btn-white">конечно должны</button>
+                            <button class="btn-white">конечно, должны</button>
                         </div>
                     </div>
                 </div>
@@ -76,14 +90,14 @@
                         </div>
                         <div>
                             <button class="btn-black">да, должны</button>
-                            <button class="btn-white">конечно должны</button>
+                            <button class="btn-white">конечно, должны</button>
                         </div>
                     </div>
                 </div>
             </div>
             <ul class="btn-direction">
-                <li class="prev"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></li>
-                <li class="next"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></li>
+                <li class="prev"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></li>
+                <li class="next"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></li>
             </ul>
             <ul class="indicators">
                 <li class="carousel-indicator active"></li>
@@ -95,14 +109,14 @@
                 <label>SlideShow</label>
             </div>
             <div class="icon-header">
-                <span>Share</span>
-                <span><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></span>
-                <span><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></span>
+                <span class="text">Share</span>
+                <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
             </div>
         </div>
     </section>
     <section class="regulations">
-        <div class="wrap-regulations">
+        <div class="wrap-regulations container">
             <div class="logo-regulations">
                 <img class="img-logo-regulations" src="./img/logo-1.png" alt="logo">
                 <p class="title">МЫСЛИ КРИСА КОЙЕРА</p>
@@ -151,35 +165,37 @@
         </div>
     </section>
     <section class="technologies">
-        <div>
-            <img src="./img/html.png" alt="logo">
-            <div class="block-technologies">
-                <p class="number">1</p>
-                <div>
-                    <p class="title-technologies">HTML5</p>
-                    <p>HyperText Markup</p>
-                    <p>Language</p>
+        <div class="wrap-technologies container">
+            <div class="content">
+                <img src="./img/html.png" alt="logo">
+                <div class="block-technologies">
+                    <p class="number">1</p>
+                    <div>
+                        <p class="title-technologies">HTML5</p>
+                        <p>HyperText Markup</p>
+                        <p>Language</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <img src="./img/css.png" alt="logo">
-            <div class="block-technologies">
-                <p class="number">2</p>
-                <div>
-                    <p class="title-technologies">CSS</p>
-                    <p>Cascading Style</p>
-                    <p>Sheets</p>
+            <div class="content">
+                <img src="./img/css.png" alt="logo">
+                <div class="block-technologies">
+                    <p class="number">2</p>
+                    <div>
+                        <p class="title-technologies">CSS</p>
+                        <p>Cascading Style</p>
+                        <p>Sheets</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <img src="./img/js.png" alt="logo">
-            <div class="block-technologies">
-                <p class="number">3</p>
-                <div>
-                    <p class="title-technologies">JS</p>
-                    <p>JavaScript</p>
+            <div class="content">
+                <img src="./img/js.png" alt="logo">
+                <div class="block-technologies">
+                    <p class="number">3</p>
+                    <div>
+                        <p class="title-technologies">JS</p>
+                        <p>JavaScript</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -218,48 +234,50 @@
         </div>
     </section>
     <section class="contact">
-        <div class="text-address">
-            <p class="title-contact">КОНТАКТЫ</p>
-            <div class="contact-text">
-                <a href="#"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></a>
-                <div>
-                    <p>18000, Украина, г. Черкассы,</p>
-                    <p>ул. Героев Сталинграда 42/1</p>
-                </div>
-            </div>
-            <div class="contact-text">
-                <a href="#"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
-                <div>
-                    <p>+38(096)622 86 13</p>
-                    <p>+38(096)622 86 13</p>
-                </div>
-            </div>
-            <div class="contact-text">
-                <a href="#"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
-                <a href="#"><p>web@rubarbs.com</p></a>
-            </div>
-            <div class="contact-text">
-                <a href="#"><i class="fa fa-globe fa-1x" aria-hidden="true"></i></a>
-                <a href="#"><p>rubarbs.com</p></a>
-            </div>
-        </div>
-        <div class="form">
-            <p class="title-contact">НAПИШИТЕ НАМ</p>
-            <form>
-                <div class="block-input">
-                    <input type="text" placeholder="имя">
-                    <input type="text" placeholder="телефон">
-                    <input type="text" placeholder="email">
-                </div>
-                <textarea placeholder="сообщение"></textarea>
-                <div class="btn">
-                    <button type="submit">отправить</button>
+        <div class="wrap-contact container">
+            <div class="text-address">
+                <p class="title-contact">КОНТАКТЫ</p>
+                <div class="contact-text">
+                    <a href="#"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></a>
                     <div>
-                        <p>Спасибо за сообщение!</p>
-                        <p>Мы обязательно  свяжемся с Вами.</p>
+                        <p>18000, Украина, г. Черкассы,</p>
+                        <p>ул. Героев Сталинграда 42/1</p>
                     </div>
                 </div>
-            </form>
+                <div class="contact-text">
+                    <a href="#"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+                    <div>
+                        <p>+38(096)622 86 13</p>
+                        <p>+38(096)622 86 13</p>
+                    </div>
+                </div>
+                <div class="contact-text">
+                    <a href="#"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
+                    <a href="#"><p>web@rubarbs.com</p></a>
+                </div>
+                <div class="contact-text">
+                    <a href="#"><i class="fa fa-globe fa-1x" aria-hidden="true"></i></a>
+                    <a href="#"><p>rubarbs.com</p></a>
+                </div>
+            </div>
+            <div class="form">
+                <p class="title-contact">НAПИШИТЕ НАМ</p>
+                <form>
+                    <div class="block-input">
+                        <input type="text" placeholder="имя">
+                        <input type="text" placeholder="телефон">
+                        <input type="text" placeholder="email">
+                    </div>
+                    <textarea placeholder="сообщение"></textarea>
+                    <div class="btn">
+                        <button type="submit">отправить</button>
+                        <div>
+                            <p>Спасибо за сообщение!</p>
+                            <p>Мы обязательно  свяжемся с Вами.</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <footer>

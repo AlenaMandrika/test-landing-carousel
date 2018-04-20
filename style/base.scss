@@ -1,14 +1,13 @@
-@font-face {
-  font-family: Geometria;
-  src: url(../fonts/Geometria.otf);
-}
 body {
   margin: 0;
   padding: 0 ;
   font-size: 14px;
-  font-family: Geometria;
   overflow-x: hidden ;
 }
 ul {
   padding: 0;
+}
+.container {
+  max-width: 1460px;
+  width: 100%;
 }

@@ -8,7 +8,7 @@
  Node.js
  
  ###  Installation
- Clone the repo  in chosen folder.
+ Clone the repo https://github.com/AlenaMandrika/test-landing-carousel.git in chosen folder.
  In the terminal run the command "npm install" to get all the required modules.
  
  ### Start Application for Development

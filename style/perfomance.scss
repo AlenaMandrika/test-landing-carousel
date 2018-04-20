@@ -29,10 +29,6 @@ h4 {
   margin: 0;
   width: 475px;
 }
-.title-revers {
-  //text-align: right;
-  //padding-right: 50px;
-}
 .block-text-performance h4 {
   position: relative;
   z-index: 5;
@@ -99,6 +95,26 @@ h4 {
     justify-content: center;
     align-content: center;
     align-items: center;
+    .block-text-performance-revers h4 {
+      right: 0;
+    }
+    .block-text-performance-revers,.block-text-performance {
+      max-width: 479px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      .text-performance,.text-performance-revers {
+        margin: 10px 0;
+        p {
+          text-align: center;
+        };
+      }
+    }
+  }
+  .performance {
+    padding: 80px 0 50px 0;
   }
 }
 
