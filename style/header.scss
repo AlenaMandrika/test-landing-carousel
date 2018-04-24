@@ -17,6 +17,12 @@
   font-family: Geometria;
   opacity: 0.8;
   z-index: 5;
+  .menu-block {
+    li a {
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
 }
 nav {
   display: flex;
@@ -64,8 +70,6 @@ ul.header-phone li {
   flex-direction: row;
   color: #53d0fb;
 }
-
-
 .hamburger  {
   display: none;
   outline: none;
