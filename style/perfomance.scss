@@ -36,7 +36,7 @@ h4 {
 .block-text-performance-revers h4 {
   position: relative;
   z-index: 5;
-  right: 68px;
+  right: 91px;
 }
 .block-text-performance,.block-text-performance-revers  {
   max-width: 410px;
@@ -117,5 +117,50 @@ h4 {
     padding: 80px 0 50px 0;
   }
 }
+@media (max-width: 768px) {
+  .performance {
+    padding: 20px 0 20px 0;
+  }
+  .block-info,.block-info-revers {
+    margin: 20px 0;
+  }
+  h4.title-revers {
+    width: 100%;
+  }
+  h4 {
+    width: 100%;
+  }
+  .block-info {
+    width: 100%;
+  }
+  .block-info-revers {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  h4 {
+    padding: 18px 0;
+  }
+  .performance {
+    h3 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  h4.title-revers {
+    width: 100%;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 0;
+    width: 100%;
+  }
+  .btn {
+    padding: 0;
+  }
+}
+
+
 
 

@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <link href=“https://fonts.googleapis.com/css?family=Roboto” rel=“stylesheet”>
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">
+    <link href="vendors/hamburgers-btn/hamburgers.css" rel="stylesheet">
     <link href="./dist/style.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="section-header">
         <div class="menu">
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo">
+            <div class="menu-bar">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <button class="menu-toggle hamburger hamburger--collapse" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </button>
             </div>
-            <div class="menu-icon">
-                <a href="#">MЕНЮ</a>
-            </div>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">ПЕРВЫЙ ЭКРАН</a>
-                <a href="#">ВСТУПЛЕНИЕ</a>
-                <a href="#">ИНФОГРАФИКА</a>
-                <a href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
-                <a href="#">КОНТАКТЫ</a>
-                <a href="tel:+38(096)622 86 13">+38(096)622 86 13</a>
-                <a href="tel:+38(096)622 86 13">+38(096)622 86 13</a>
-            </div>
-            <nav>
+            <nav class="is-hidden menu-block">
                 <ul class="nav">
                     <li><a href="#">ПЕРВЫЙ ЭКРАН</a></li>
                     <li><a href="#">ВСТУПЛЕНИЕ</a></li>
@@ -38,8 +37,10 @@
                         <li><a href="tel:+38(096)622 86 13">+38(096)622 86 13</a></li>
                     </ul>
                     <ul class="header-lang">
-                        <li><a href="#">EN |</a></li>
-                        <li><a href="#">UA |</a></li>
+                        <li><a href="#">EN</a></li>
+                        |
+                        <li><a href="#">UA</a></li>
+                        |
                         <li><a href="#">RU</a></li>
                     </ul>
                 </div>
@@ -95,38 +96,35 @@
                     </div>
                 </div>
             </div>
-            <ul class="btn-direction">
-                <li class="prev"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></li>
-                <li class="next"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></li>
-            </ul>
-            <ul class="indicators">
-                <li class="carousel-indicator active"></li>
-                <li class="carousel-indicator"></li>
-                <li class="carousel-indicator"></li>
-            </ul>
-            <div class="slideShow">
-                <input type="checkbox" id="slideShow" placeholder="slide show">
-                <label>SlideShow</label>
-            </div>
-            <div class="icon-header">
-                <span class="text">Share</span>
-                <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-            </div>
+        </div>
+        <ul class="btn-direction">
+            <li class="prev"><i class="fa fa-angle-left fa-3x" aria-hidden="true"></i></li>
+            <li class="next"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></li>
+        </ul>
+        <ul class="indicators">
+            <li class="carousel-indicator active"></li>
+            <li class="carousel-indicator"></li>
+            <li class="carousel-indicator"></li>
+        </ul>
+        <div class="slideShow">
+            <input type="checkbox" id="slideShow" placeholder="slide show">
+            <label>SlideShow</label>
+        </div>
+        <div class="icon-header">
+            <span class="text">Share</span>
+            <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
         </div>
     </section>
     <section class="regulations">
-        <div class="wrap-regulations container">
-            <div class="logo-regulations">
+        <div class="wrap-regulations block-container">
+            <div class="logo-regulations col-md-5">
                 <img class="img-logo-regulations" src="./img/logo-1.png" alt="logo">
                 <p class="title">МЫСЛИ КРИСА КОЙЕРА</p>
             </div>
-            <div class="block-text">
+            <div class="block-text col-md-7">
                 <p>Одна из мыслей, которая поселилась в моей голове: <strong>должен ли frontend-
                     разработчик быть в курсе всего?</strong></p>
-                <p>В общем смысле, frontend-разработчик может использоваться и на других
-                    рабочих местах. Вся команда разработчиков заканчивает разговор на
-                    frontend-разработчике. В этом смысл моей идеи. </p>
                 <p>В общем смысле, frontend-разработчик может использоваться и на других
                     рабочих местах. Вся команда разработчиков заканчивает разговор на
                     frontend-разработчике. В этом смысл моей идеи. </p>
@@ -165,7 +163,7 @@
         </div>
     </section>
     <section class="technologies">
-        <div class="wrap-technologies container">
+        <div class="wrap-technologies block-container">
             <div class="content">
                 <img src="./img/html.png" alt="logo">
                 <div class="block-technologies">
@@ -221,9 +219,7 @@
                 <img src="img/performance1.png" alt="logo">
             </div>
             <div class="btn block-text-performance-revers">
-                <div>
-                    <h4 class="title-revers">Тонкости</h4>
-                </div>
+                <h4 class="title-revers">Тонкости</h4>
                 <div class="text-performance-revers">
                     <p> Необходимо понимать</p>
                     <p>насколько быстрым</p>
@@ -234,7 +230,7 @@
         </div>
     </section>
     <section class="contact">
-        <div class="wrap-contact container">
+        <div class="wrap-contact block-container">
             <div class="text-address">
                 <p class="title-contact">КОНТАКТЫ</p>
                 <div class="contact-text">
@@ -296,6 +292,7 @@
         </div>
     </footer>
 
-<script src="./dist/main.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.js"></script>
+    <script defer src="./dist/main.min.js"></script>
 </body>
 </html>

@@ -63,19 +63,13 @@ document.querySelector('#slideShow').addEventListener('click', function (e) {
   }, 2500);
 }, false)
 
-function myFunction() {
-  document.getElementById('myDropdown').classList.toggle('show');
-}
-document.querySelector('.menu-icon').addEventListener('click', function () {
-  myFunction()
+document.querySelector('.hamburger').addEventListener('click', function () {
+  this.classList.toggle('is-active');
 }, true)
 
-document.addEventListener('click', function (e) {
-  console.log(e.target)
-  if (!e.target.matches('.menu-icon')) {
-    let myDropdown = document.getElementById('myDropdown');
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}, true)
+const menu = document.querySelector('.menu-block');
+const toggle = document.querySelector('.menu-toggle');
+
+toggle.addEventListener('click', function () {
+  menu.classList.toggle('is-hidden');
+});

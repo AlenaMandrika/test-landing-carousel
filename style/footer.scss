@@ -30,4 +30,24 @@ footer {
     }
   }
 }
+@media (max-width: 400px) {
+  footer {
+    max-height: 185px;
+  }
+  .img-logo-footer {
+    padding: 0 0 10px;
+  }
+  .logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+  }
+  .text-footer {
+    margin-top: 10px;
+  }
+}
+
+
+
 

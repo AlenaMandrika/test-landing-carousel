@@ -39,3 +39,12 @@
   font-size: 30px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .technologies {
+    padding: 20px 0 20px 0;
+  }
+  .content {
+    padding: 20px 0;
+  }
+}
+
